@@ -1,0 +1,762 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #150f0f;
+}
+
+
+
+.container-burger{
+    margin-top: 120px;
+}
+.center-div-burger {
+    margin-left: 260px;
+
+    width: 60%;
+    height: 20rem;
+    background-color: #e8e5e3;
+    border-radius: 2rem;
+    box-shadow: 0 0.7rem 3rem 0 rgba(182, 36, 36, 0.2);
+    position: relative;
+}
+
+.clip-burger {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    top: 0;
+    left: 0;
+    border-radius: 2rem;
+    box-shadow: 0 0.7rem 3rem 0 rgba(100, 100, 100, 0.2);
+    transition: all 0.3s linear;
+}
+
+.img1-burger {
+    background-image: url("../images/burger/clip1.jpg");
+    background-position: center;
+    background-size: 300px;
+    clip-path: polygon(25% 0, 75% 0, 65% 100%, 30% 100%);
+
+
+}
+
+.img2-burger {
+    background-image: url("../images/burger/clip2.jpg");
+    background-position: right;
+    background-size: 300px;
+    clip-path: polygon(75% 0, 100% 0, 100% 100%, 60% 100%);
+}
+
+.img3-burger {
+    background-image: url("../images/burger/clip3.jpg");
+    background-position: left;
+    background-size: 300px;
+    clip-path: polygon(0 0, 26% 0, 40% 100%, 0 100%);
+}
+
+
+.center-div-burger:hover .clip-burger {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.center-div-burger .clip-burger:hover {
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    background-size: cover;
+
+}
+
+
+/*pizza img clip*/
+
+
+.container-pizza{
+    margin-top: 120px;
+}
+.center-div-pizza {
+    margin-left: 260px;
+
+    width: 60%;
+    height: 20rem;
+    background-color: #e8e5e3;
+    border-radius: 2rem;
+    box-shadow: 0 0.7rem 3rem 0 rgba(182, 36, 36, 0.2);
+    position: relative;
+}
+
+.clip-pizza {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    top: 0;
+    left: 0;
+    border-radius: 2rem;
+    box-shadow: 0 0.7rem 3rem 0 rgba(100, 100, 100, 0.2);
+    transition: all 0.3s linear;
+}
+
+.img1-pizza {
+    background-image: url("../images/pizza/clip1.jpg");
+    background-position: center;
+    background-size: 500px;
+    clip-path: polygon(25% 0, 75% 0, 65% 100%, 30% 100%);
+    
+
+
+}
+
+.img2-pizza {
+    background-image: url("../images/pizza/clip2.jpg");
+    background-position: right;
+    background-size: 500px;
+    clip-path: polygon(75% 0, 100% 0, 100% 100%, 60% 100%);
+}
+
+.img3-pizza {
+    background-image: url("../images/pizza/clip3.jpg");
+    background-position: left;
+    background-size: 500px;
+    clip-path: polygon(0 0, 26% 0, 40% 100%, 0 100%);
+}
+
+
+.center-div-pizza:hover .clip-pizza {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.center-div-pizza .clip-pizza:hover {
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    background-size: cover;
+
+}
+
+
+
+/*momo img clip*/
+
+
+.container-momo{
+    margin-top: 120px;
+}
+.center-div-momo {
+    margin-left: 260px;
+
+    width: 60%;
+    height: 20rem;
+    background-color: #e8e5e3;
+    border-radius: 2rem;
+    box-shadow: 0 0.7rem 3rem 0 rgba(182, 36, 36, 0.2);
+    position: relative;
+}
+
+.clip-momo {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    top: 0;
+    left: 0;
+    border-radius: 2rem;
+    box-shadow: 0 0.7rem 3rem 0 rgba(100, 100, 100, 0.2);
+    transition: all 0.3s linear;
+}
+
+.img1-momo {
+    background-image: url("../images/Momo/clip1.jpg");
+    background-position: center;
+    background-size: 500px;
+    clip-path: polygon(25% 0, 75% 0, 65% 100%, 30% 100%);
+    
+
+
+}
+
+.img2-momo {
+    background-image: url("../images/Momo/clip2.jpg");
+    background-position: right;
+    background-size: 300px;
+    clip-path: polygon(75% 0, 100% 0, 100% 100%, 60% 100%);
+}
+
+.img3-momo {
+    background-image: url("../images/Momo/clip3.jpg");
+    background-position: left;
+    background-size: 650px;
+    clip-path: polygon(0 0, 26% 0, 40% 100%, 0 100%);
+}
+
+
+.center-div-momo:hover .clip-momo {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.center-div-momo .clip-momo:hover {
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    background-size: cover;
+
+}
+
+
+
+
+.container1 {
+    margin-top: 140px;
+    margin-left: 65px;
+    position: relative;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Catagory-head {
+    color: red;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.container1 .box {
+    margin-bottom: 59px;
+    position: relative;
+    width: 275px;
+    height: 350px;
+    overflow: hidden;
+    margin-left: 90px;
+    border-radius: 30px;
+    box-shadow: 5px 5px #fdc500;
+}
+
+.container1 .box:hover {
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40px rgba(0, 0, 0, .5);
+}
+
+.container1 .box .imgBx {
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container1 .box .imgBx:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(180deg, #f00, #000);
+    mix-blend-mode: multiply;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container1 .box:hover .imgBx:before {
+    opacity: 1;
+}
+
+.container1 .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.container1 .box .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    padding: 20px;
+    align-items: flex-end;
+}
+
+
+.container1 .box .content h2 {
+    color: #fff;
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+    font-size: 20px;
+    transform: translateY(200px);
+
+}
+
+.container1 .box:hover .content h2 {
+    transform: translateY(0);
+    transition-delay: 0.6s;
+}
+
+.container1 .box .content h1 {
+    color: rgb(233, 233, 7);
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 20px;
+    transform: translateY(200px);
+
+}
+
+.container1 .box:hover .content h1 {
+    transform: translateY(0);
+    transition-delay: 0.6s;
+}
+
+.container1 .box .content p {
+    margin-bottom: 80px;
+    color: #fff;
+    transform: translateY(200px);
+    transition-delay: 0.7s;
+    font-size: 14px;
+}
+
+.container1 .box:hover .content p {
+    transform: translateY(0);
+    transition-delay: 0.7s;
+
+}
+
+
+.container1 .box .content .btn {
+    color: #fff;
+    transform: translateY(200px);
+    transition-delay: 0.7s;
+    font-size: 14px;
+}
+
+.container1 .box:hover .content .btn {
+    transform: translateY(0);
+    transition-delay: 0.7s;
+
+}
+
+.btn {
+    margin-left: 60px;
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    width: 100px;
+    font-size: 35px;
+    color: #15f4ee;
+    font-family: poppins;
+    font-weight: 400;
+    border: 5px solid #15f4ee;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+
+}
+
+.btn:hover {
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+        0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}
+
+
+
+
+.burger-container {
+    margin-top: 140px;
+  margin-left: -80px;
+    position: relative;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Catagory-head {
+    color: red;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.burger-container .box {
+    margin-bottom: 59px;
+    position: relative;
+    width: 275px;
+    height: 350px;
+    overflow: hidden;
+    margin-left: 90px;
+    border-radius: 30px;
+    box-shadow: 5px 5px #fdc500;
+}
+
+.burger-container .box:hover {
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40px rgba(0, 0, 0, .5);
+}
+
+.burger-container .box .imgBx {
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.burger-container .box .imgBx:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(180deg, #f00, #000);
+    mix-blend-mode: multiply;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.burger-container .box:hover .imgBx:before {
+    opacity: 1;
+}
+
+.burger-container .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.burger-container .box .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    padding: 20px;
+    align-items: flex-end;
+}
+
+
+.burger-container .box .content h2 {
+    color: yellow;
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin-bottom: -55px;
+    font-size: 20px;
+    font-weight: bolder;
+
+    transform: translateY(200px);
+
+}
+
+.burger-container .box:hover .content h2 {
+    transform: translateY(0);
+    transition-delay: 0.6s;
+}
+
+.burger-container .box .content h1 {
+    color: rgb(233, 233, 7);
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin-bottom: -15px;
+    font-size: 20px;
+    transform: translateY(200px);
+
+}
+
+.burger-container .box:hover .content h1 {
+    transform: translateY(0);
+    transition-delay: 0.6s;
+}
+
+.burger-container .box .content p {
+    margin-bottom: 80px;
+    color: rgb(10, 205, 212);
+    transform: translateY(200px);
+    transition-delay: 0.7s;
+    font-size: 14px;
+}
+
+.burger-container .box:hover .content p {
+    transform: translateY(0);
+    transition-delay: 0.7s;
+
+}
+
+
+.burger-container .box .content .btn {
+    color: #fff;
+    transform: translateY(200px);
+    transition-delay: 0.7s;
+    font-size: 14px;
+}
+
+.burger-container .box:hover .content .btn {
+    transform: translateY(0);
+    transition-delay: 0.7s;
+
+}
+
+.btn {
+    margin-left: 60px;
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    width: 100px;
+    font-size: 35px;
+    color: #15f4ee;
+    font-family: poppins;
+    font-weight: 400;
+    border: 5px solid #15f4ee;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+
+}
+
+.btn:hover {
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+        0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}
+
+
+
+
+
+
+.pizza-slider {
+    height: 100vh;
+    width: inherit;
+    background-image: url(../images/pizza/bg1.jpg);
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2)0px 8px 24px;
+    animation: pizza 20s linear infinite;
+}
+
+@keyframes pizza {
+    0% {
+        background-image: url('../images/pizza/bg1.jpg');
+    }
+
+    25% {
+        background-image: url('../images/pizza/bg2.jpg');
+    }
+
+    50% {
+        background-image: url('../images/pizza/bg3.jpg');
+    }
+
+   
+}
+
+
+.burger-slider {
+    height: 100vh;
+    width: inherit;
+    background-image: url(../images/burger/1.jpg);
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2)0px 8px 24px;
+    animation: burger 20s linear infinite;
+}
+
+@keyframes burger {
+    0% {
+        background-image: url('../images/burger/1.jpg');
+    }
+
+    25% {
+        background-image: url('../images/burger/2.jpg');
+    }
+
+    50% {
+        background-image: url('../images/burger/3.jpg');
+    }
+    75% {
+        background-image: url('../images/burger/4.jpg');
+    }
+
+   
+}
+
+
+.momo-slider {
+    height: 100vh;
+    width: inherit;
+    background-image: url(../images/Momo/1.jpg);
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2)0px 8px 24px;
+    animation: momo 20s linear infinite;
+}
+
+@keyframes momo {
+    0% {
+        background-image: url('../images/Momo/1.jpg');
+    }
+
+    25% {
+        background-image: url('../images/Momo/2.jpg');
+    }
+
+    50% {
+        background-image: url('../images/Momo/3.jpg');
+    }
+    75% {
+        background-image: url('../images/Momo/1.jpg');
+    }
+
+   
+}
+
+.banner-logo{
+    position: absolute;
+    color: red;
+    font-size: 37px;
+    margin-left: 625px;
+    margin-top: 50px;
+  }
+
+.banner1 {
+    margin-top: 150px;
+    height: 100vh;
+    width: 101%;
+    position: absolute;
+}
+
+.imgBx img{
+    height: 275px;
+    width: 275px;
+
+}
+
+.name-logo-sidebar{
+    text-decoration: none;
+    color: white;
+    margin-top: -659px;
+    margin-left: 530px;
+    font-weight: bold;
+    font-size: 34px;
+    
+}
+
+
+.Title{
+  position: absolute;
+    color: red;
+    margin-left: 530px;
+   margin-top: 50px;
+    font-weight: bold;
+    font-size: 34px;
+    text-decoration: none;
+  }
+
+
+  .Title1{
+    position: absolute;
+      color: red;
+      margin-left: 600px;
+     margin-top: 50px;
+      font-weight: bold;
+      font-size: 34px;
+      text-decoration: none;
+    
+    
+    }
+
+  .slider-contact {
+    height: 85vh;
+    width: inherit;
+    background-image: url(../images/contactUS/1.jpeg);
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2)0px 8px 24px;
+    animation: Contact 20s linear infinite;
+}
+
+@keyframes Contact {
+    0% {
+        background-image: url('../images/contactUS/1.jpeg');
+    }
+
+    25% {
+        background-image: url('../images/contactUS/2.jpg');
+    }
+
+    50% {
+        background-image: url('../images/contactUS/3.jpg');
+    }
+
+    75% {
+        background-image: url('../images/contactUS/1.jpeg');
+    }
+}
+
+input, textarea{
+    padding: 10px ;
+    margin: 20px ;
+    gap: 2rem;
+    display: flex;
+}
+
+input{
+    width: 360px;
+}
+  
+
+.container{
+    padding: 20px;
+    gap: 3rem;
+    margin: 20px;
+    
+}
+
+.btn-contact {
+    margin-left: 90px;
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    width: 120px;
+    font-size: 35px;
+    color: #15f4ee;
+    font-family: poppins;
+    font-weight: 400;
+    border: 5px solid #15f4ee;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+
+}
+
+
+.btn-contact:hover {
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+        0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}
+
+.footer-pizza{
+    margin-top: 750px;
+    position: absolute;
+    width: 1343px;
+}
+
